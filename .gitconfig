@@ -1,0 +1,18 @@
+# This is Git's per-user configuration file.
+[user]
+	signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIKOqqOnLYRjK5iMyeZOLFtJsZlKaxV827Dc8uGhWc5Uw
+	name = Kenzi Connor
+	email = git@knz.ai
+[gpg]
+	format = ssh
+[gpg "ssh"]
+	program = /Applications/1Password.app/Contents/MacOS/op-ssh-sign
+	allowedSignersFile = /Users/knzconnor/.config/git/allowed_signers
+[commit]
+	gpgsign = true
+[core]
+	excludesFile = ~/.gitignore
+[push]
+	default = current
+[gist]
+	home = /Users/knzconnor/Projects/gists
