@@ -1,6 +1,7 @@
 # This is Git's per-user configuration file.
 [user]
 	signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIKOqqOnLYRjK5iMyeZOLFtJsZlKaxV827Dc8uGhWc5Uw
+# Please adapt and uncomment the following lines:
 	name = Kenzi Connor
 	email = git@knz.ai
 [gpg]
