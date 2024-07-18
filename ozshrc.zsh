@@ -10,7 +10,15 @@
 #
 # brainstormr=~/Projects/development/planetargon/brainstormr
 # cd $brainstormr
-plugins=(git dotenv)
+
+#project aliases
+alias cdc="cd ~/Projects/cega"
+alias cdk="cd ~/Projects/knz.ai"
+alias cdd="cd ~/Documents/dotfiles"
+alias cdz="cd ~/.oh-my-zsh/custom"
+
+#git aliases
+alias ga="git add"
 alias gl="git log"
 alias gu="git pull"
 alias gs="git status"
