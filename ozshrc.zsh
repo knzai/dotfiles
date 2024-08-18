@@ -12,6 +12,7 @@
 # cd $brainstormr
 
 #project aliases
+alias cdp="cd ~/Projects"
 alias cdc="cd ~/Projects/cega"
 alias cdk="cd ~/Projects/knz.ai"
 alias cdd="cd ~/Documents/dotfiles"
